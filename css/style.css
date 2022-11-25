@@ -120,7 +120,7 @@ section {
 
 .articles-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   column-gap: 2.6rem;
   row-gap: 4.6rem;
 }
@@ -160,6 +160,10 @@ section {
 @media (width <= 550px) {
   html {
     font-size: 50%;
+  }
+
+  .articles-container {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   }
 }
 
